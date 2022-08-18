@@ -1,5 +1,3 @@
-# AdaProp - NeurIPS 2022 submission
-
 ## Dependencies
 - torch
 - torch_scatter
