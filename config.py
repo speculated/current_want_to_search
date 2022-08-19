@@ -25,10 +25,10 @@ HPO_search_space = {
         'n_tbatch':              ('choice', [50]),
         
         # continuous
-        # 'decay_rate':            ('uniform', (0.8, 1)),
-        'decay_rate':            ('uniform', (0.994)),
-        # 'lamb':                  ('uniform', (1e-5, 1e-3)),
-        'lamb':                  ('uniform', (14e-5)),
-        # 'dropout':               ('uniform', (0, 0.5)),
-        'dropout':               ('uniform', (0.02)),
+        'decay_rate':            ('uniform', (0.8, 1)),
+        # 'decay_rate':            ('uniform', (0.994)),
+        'lamb':                  ('uniform', (1e-5, 1e-3)),
+        # 'lamb':                  ('uniform', (14e-5)),
+        'dropout':               ('uniform', (0, 0.5)),
+        # 'dropout':               ('uniform', (0.02)),
     }
